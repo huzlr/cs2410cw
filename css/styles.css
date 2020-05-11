@@ -1,0 +1,97 @@
+body{
+  background-color: #DFCFBE;
+  color:black;
+  font-family: verdana;
+  font-size: 150%;
+}
+h1{color: green;}
+p{color: red;}
+
+.nav {
+  overflow: hidden;
+  background-color: #333;
+
+}
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav a.active {
+  background-color: green;
+  color: white;
+}
+
+.des{
+  font-size: 85%;
+}
+
+.ss{
+  color: black;
+}
+
+  table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#cssTable td 
+{
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.form {
+  text-align: center;
+}
+
+/* Style collapsible content button*/
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Hover background colour of button */
+.activeCollapsible, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style collapsible content */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.activeCollapsible:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
